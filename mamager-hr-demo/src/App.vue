@@ -5,10 +5,14 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
-    <img alt="" class="logo" src="./public/logo.png" width="125" height="125" />
+    <img src="logo.png" width="175" height="175" />
+    
+    
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld  msg="Manager HR" />
+      
+
     </div>
   </header>
 
@@ -30,7 +34,6 @@ header {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
     padding-right: calc(var(--section-gap) / 2);
   }
 
